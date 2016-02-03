@@ -1,0 +1,12 @@
+body {
+  padding-top: 50px;
+}
+.tasksproject-content {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.avatar {
+	max-height: 200px;
+	min-height: 100px;
+}

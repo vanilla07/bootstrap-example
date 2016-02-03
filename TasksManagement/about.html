@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="js/jquery-2.1.4.min.js"></script>	
+	<script src="js/bootstrap.min.js"></script>
+	
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/tasksproject.css" rel="stylesheet">
+	
+	<meta charset="UTF-8">
+	<title>Tasks management</title>
+</head>
+
+<body>
+
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Tasks List</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Tasks</a></li>
+            <li class="active"><a href="about.html">About</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+	<div class="container">
+
+      <div class="tasksproject-content">
+        <h1>About Task List</h1>
+        <p class="lead">This website presents <strong>a set of tasks</strong> to its users.</p>
+        
+        <div class="col-md-6">
+	      	<div class="panel panel-default ">
+			  <div class="panel-heading">
+			    <h3 class="panel-title"> There should be 3 pages on the site : </h3>
+			  </div>
+			  <div class="panel-body">
+				<ol class="text-left">
+					<li>A landing page that presents <strong>a list of tasks</strong> to the user. Tasks can be be <strong>finished</strong> or <strong>not finished</strong>. Every task in the list <strong>links to the same task page</strong>.</li>
+					<li>A task page that presents <strong>the details of a single task</strong> to the user. Tasks have <strong>a title</strong>, <strong>a description</strong> and <strong>a person</strong> associated with them. You should display that person somehow (e.g. their name, a picture, etc.). 
+					<small>It is ok for all the tasks on the landing page to link to the same task detail page, as this is just an example of how a task looks.</small></li>
+					<li>An ‘about’ page that explains what the site is for.</li>
+				</ol>
+			  </div>
+			</div>
+		</div>
+		<div class="col-md-6">
+	      	<div class="panel panel-default">
+			  <div class="panel-heading">
+			    <h3 class="panel-title"> The pages on the site should have the following features : </h3>
+			  </div>
+			  <div class="panel-body">
+				<ul class="text-left">
+					<li>Clear navigation allowing the user to <strong>move between pages</strong>.</li>
+					<li><strong>Consistent</strong> style across the pages.</li>
+					<li><strong>Responsive layout</strong> where the layout changes depending on the size of the browser window.</li>
+					<li>Clearly stated purpose for each page.</li>
+					<li>Use the <strong>bootstrap</strong> library.</li>
+				</ul>
+			  </div>
+			</div>
+		</div>
+      </div>
+
+    </div>
+</body>
+</html>

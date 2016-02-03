@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="js/jquery-2.1.4.min.js"></script>	
+	<script src="js/bootstrap.min.js"></script>
+	
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/tasksproject.css" rel="stylesheet">
+	
+	<meta charset="UTF-8">
+	<title>Tasks management</title>
+</head>
+
+<body>
+
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Tasks List</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Tasks</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+	<div class="container">
+
+      <div class="tasksproject-content">
+        <h1>Bootstrap Tasks List</h1>
+        <p class="lead">This website presents <strong>a set of tasks</strong> to its users</p>
+      
+      	<div class="col-md-6">
+	      	<div class="panel panel-default">
+			  <div class="panel-heading">
+			    <h3 class="panel-title"> List of pending tasks</h3>
+			  </div>
+			  <div class="panel-body">
+				  <a class="list-group-item" href="tasks/task1.html">Do the shopping</a>
+				  <a class="list-group-item" href="tasks/task1.html">Dapibus ac facilisis in</a>
+				  <a class="list-group-item" href="tasks/task1.html">Morbi leo risus</a>
+				  <a class="list-group-item" href="tasks/task1.html">Porta ac consectetur ac </a>
+				  <a class="list-group-item" href="tasks/task1.html">Vestibulum at eros</a>
+			  </div>
+			</div>
+		</div>
+      	<div class="col-md-6">
+			<div class="panel panel-success">
+			  <div class="panel-heading">
+			    <h3 class="panel-title"> List of done tasks</h3>
+			  </div>
+			  <div class="panel-body">
+				  <a class="list-group-item" href="tasks/task1.html">Cras justo odio <span class="glyphicon glyphicon-ok" aria-label="done"></span></a>
+				  <a class="list-group-item" href="tasks/task1.html">Dapibus ac facilisis in <span class="glyphicon glyphicon-ok" aria-label="done"></span></a>
+				  <a class="list-group-item" href="tasks/task1.html">Morbi leo risus <span class="glyphicon glyphicon-ok" aria-label="done"></span></a>
+			  </div>
+			</div>
+		</div>
+      	
+      </div>
+
+    </div>
+</body>
+</html>
